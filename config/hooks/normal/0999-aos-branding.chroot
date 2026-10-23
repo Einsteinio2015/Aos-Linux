@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+mkdir -p /usr/share/backgrounds/aos
+
+echo "Aos Linux branding hook executed." >/var/log/aos-branding.log
